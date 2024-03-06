@@ -5,6 +5,7 @@ body {
     margin: 0;
     background-color: #111;
     display: flex;
+    font-family: "Dela Gothic One", sans-serif;
 }
 
 .main-page { 
@@ -20,6 +21,9 @@ body {
     display: flex;
     margin: 80px;
     color: #fff;
+    text-align: center;
+    align-items: start;
+    justify-content: center;
 }
 
 .window-sign {
