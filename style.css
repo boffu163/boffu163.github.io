@@ -9,13 +9,18 @@ body {
     font-weight: 700;
 }
 
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
 
 .main-page { 
     background-color: #111;
-    height: 100%;
+    height: 100vh;
     display: block;
 }
 
@@ -89,6 +94,7 @@ body {
     font-size: 35px;
     text-align: center;
     font-weight: 700;
+    margin-top: 30px;
 }
 
 .text-register {
@@ -96,7 +102,7 @@ body {
     font-size: 60px;
     text-align: center;
     font-weight: 700;
-    padding-top: 20px;
+    margin-top: 140px;
 }
 
 .text-window-change {
@@ -130,7 +136,7 @@ body {
     color: #fff;
     font-size: 36px;
     text-align: center;
-    padding-top: 10px;
+    margin-top: 45px;
     font-weight: 700;
 }
 
@@ -139,7 +145,7 @@ body {
     font-size: 65px;
     text-align: center;
     font-weight: 700;
-    padding-top: 40px;
+    margin-top: 160px;
 }
 
 .statistics-page {
@@ -147,6 +153,258 @@ body {
     height: 100vh;
     display: none;
 }
+
+.stat-today {
+    display: flex;
+    background-color: #262626;
+    border-radius: 50px;
+    width: 700px;
+    height: 450px;
+    margin-top: 70px;
+    margin-left: 90px;
+    user-select: none;
+}
+
+.red-line-stat-today {
+    border-radius: 50px 50px 0 0;
+    width: 700px;
+    height: 90px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #3d0000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-stat-line {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.text-stat-today {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.lose-stat {
+    color: #f00;
+}
+
+.win-stat {
+    color: #00ff19;
+}
+
+.plus-stat {
+    color: #8cff98;
+}
+
+.minus-stat {
+    color: #ff5252;
+}
+
+.kda-today {
+    margin-left: 45px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kda-today {
+    margin-left: 45px;
+    font-size: 30px;
+}
+
+.total-matches-today {
+    margin-left: 60px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-total-matches-today {
+    margin-left: 130px;
+    font-size: 30px;
+}
+
+.kd-today {
+    margin-left: 100px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kd-today {
+    margin-left: 115px;
+    font-size: 30px;
+}
+
+.text-stat-today2 {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.last-10-matches-today {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 45px;
+}
+
+.value-last-10-matches-today {
+    font-size: 28px;
+    margin-left: 45px;
+}
+
+.win-lose-today {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 100px;
+}
+
+.value-win-lose-today {
+    font-size: 30px;
+    margin-left: 135px;
+}
+
+.share {
+    width: 50px;
+    height: 40px;
+    margin-left: 600px;
+    margin-top: 30px;
+    display: flex;
+}
+
+
+
+.stat-month {
+    display: flex;
+    background-color: #262626;
+    border-radius: 50px;
+    width: 850px;
+    height: 450px;
+    margin-top: 70px;
+    margin-left: 190px;
+    user-select: none;
+}
+
+.red-line-stat-month {
+    border-radius: 50px 50px 0 0;
+    width: 850px;
+    height: 90px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #3d0000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-stat-line-month {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.text-stat-month {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.kda-month {
+    margin-left: 45px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kda-month {
+    margin-left: 45px;
+    font-size: 30px;
+}
+
+.total-matches-month {
+    margin-left: 120px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-total-matches-month {
+    margin-left: 190px;
+    font-size: 30px;
+}
+
+.kd-month {
+    margin-left: 140px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kd-month {
+    margin-left: 155px;
+    font-size: 30px;
+}
+
+.text-stat-month2 {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.last-10-matches-month {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 45px;
+}
+
+.value-last-10-matches-month {
+    font-size: 30px;
+    margin-left: 45px;
+}
+
+.win-lose-month {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 200px;
+}
+
+.value-win-lose-month {
+    font-size: 30px;
+    margin-left: 235px;
+}
+
+.share-month {
+    width: 50px;
+    height: 40px;
+    margin-left: 750px;
+    margin-top: 30px;
+    display: flex;
+}
+
+
 
 .your-game-page {
     background-color: #111;
