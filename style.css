@@ -1,0 +1,765 @@
+/* Здесь будут описаны все стили проекта */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+    display: flex;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 700;
+    height: 100%;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.global-main-page {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-page { 
+    background-color: #111;
+    display: flex;
+}
+
+.top-row {
+    width: 100%;
+    height: 90px;
+    background: rgba(61, 0, 0, 0.8);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    user-select: none;
+}
+
+.main-top-row {
+    color: #fff;
+    margin: 0px;
+    margin-left: 300px;
+    margin-right: 400px;
+    cursor: pointer;
+}
+
+.stat-top-row {
+    color: #fff;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.game-top-row {
+    color: #fff;
+    margin: 0px;
+    margin-left: 400px;
+    margin-right: 250px;
+    cursor: pointer;
+}
+
+.img-user-male {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+.window-main {
+    display: flex;
+    user-select: none;
+}
+
+.window-register {
+    background-color: #262626;
+    border-radius: 50px;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.red-line-reg {
+    border-radius: 50px 50px 0 0;
+    width: 800px;
+    height: 132px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #3d0000;
+}
+
+.window-text-reg {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.text-register {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 140px;
+}
+
+.text-window-change {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #3894ff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.window-sign {
+    background-color: #262626;
+    border-radius: 50px;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.red-line-sign {
+    border-radius: 50px 50px 0 0;
+    width: 800px;
+    height: 132px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #3d0000;
+}
+
+.window-text-sign {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 700;
+}
+
+.text-sign {
+    color: #fff;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 160px;
+}
+
+
+
+.statistics-page {
+    background-color: #111;
+    display: none;
+    flex-direction: column;
+}
+
+.stat__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.stat-today {
+    display: flex;
+    background-color: #262626;
+    border-radius: 50px;
+    width: 700px;
+    height: 450px;
+    margin-top: 70px;
+    margin-left: 30px;
+    user-select: none;
+}
+
+.red-line-stat-today {
+    border-radius: 50px 50px 0 0;
+    width: 700px;
+    height: 90px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #3d0000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-stat-line {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.text-stat-today {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.lose-stat {
+    color: #f00;
+}
+
+.win-stat {
+    color: #00ff19;
+}
+
+.plus-stat {
+    color: #8cff98;
+}
+
+.minus-stat {
+    color: #ff5252;
+}
+
+.kda-today {
+    margin-left: 45px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kda-today {
+    margin-left: 45px;
+    font-size: 30px;
+}
+
+.total-matches-today {
+    margin-left: 60px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-total-matches-today {
+    margin-left: 130px;
+    font-size: 30px;
+}
+
+.kd-today {
+    margin-left: 100px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kd-today {
+    margin-left: 115px;
+    font-size: 30px;
+}
+
+.text-stat-today2 {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.last-10-matches-today {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 45px;
+}
+
+.value-last-10-matches-today {
+    font-size: 28px;
+    margin-left: 45px;
+}
+
+.win-lose-today {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 100px;
+}
+
+.value-win-lose-today {
+    font-size: 30px;
+    margin-left: 135px;
+}
+
+.share {
+    width: 50px;
+    height: 40px;
+    margin-left: 600px;
+    margin-top: 45px;
+    display: flex;
+}
+
+
+
+.stat-month {
+    display: flex;
+    background-color: #262626;
+    border-radius: 50px;
+    width: 850px;
+    height: 450px;
+    margin-top: 70px;
+    margin-left: 185px;
+    user-select: none;
+}
+
+.red-line-stat-month {
+    border-radius: 50px 50px 0 0;
+    width: 850px;
+    height: 90px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #3d0000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-stat-line-month {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.text-stat-month {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.kda-month {
+    margin-left: 45px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kda-month {
+    margin-left: 45px;
+    font-size: 30px;
+}
+
+.total-matches-month {
+    margin-left: 120px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-total-matches-month {
+    margin-left: 190px;
+    font-size: 30px;
+}
+
+.kd-month {
+    margin-left: 140px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kd-month {
+    margin-left: 155px;
+    font-size: 30px;
+}
+
+.text-stat-month2 {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.last-10-matches-month {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 45px;
+}
+
+.value-last-10-matches-month {
+    font-size: 30px;
+    margin-left: 45px;
+}
+
+.win-lose-month {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 223px;
+}
+
+.value-win-lose-month {
+    font-size: 30px;
+    margin-left: 235px;
+}
+
+.share-month {
+    width: 50px;
+    height: 40px;
+    margin-left: 750px;
+    margin-top: 45px;
+    display: flex;
+}
+
+
+
+.stat-year {
+    display: flex;
+    background-color: #262626;
+    border-radius: 50px;
+    width: 850px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 30px;
+    user-select: none;
+}
+
+.red-line-stat-year {
+    border-radius: 50px 50px 0 0;
+    width: 850px;
+    height: 90px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #3d0000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-stat-line-year {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.text-stat-year {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.kda-year {
+    margin-left: 45px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kda-year {
+    margin-left: 45px;
+    font-size: 30px;
+}
+
+.total-matches-year {
+    margin-left: 120px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-total-matches-year {
+    margin-left: 190px;
+    font-size: 30px;
+}
+
+.kd-year {
+    margin-left: 140px;
+    font-size: 26px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kd-year {
+    margin-left: 155px;
+    font-size: 30px;
+}
+
+.text-stat-year2 {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.last-10-matches-year {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 45px;
+}
+
+.value-last-10-matches-year {
+    font-size: 30px;
+    margin-left: 45px;
+}
+
+.win-lose-year {
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 215px;
+}
+
+.value-win-lose-year {
+    font-size: 30px;
+    margin-left: 190px;
+}
+
+.share-year {
+    width: 50px;
+    height: 40px;
+    margin-left: 750px;
+    margin-top: 45px;
+    display: flex;
+}
+
+
+.stat-more {
+    display: flex;
+    background-color: #262626;
+    border-radius: 50px;
+    width: 700px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 185px;
+    margin-right: 30px;
+    user-select: none;
+}
+
+.red-line-stat-more {
+    border-radius: 50px 50px 0 0;
+    width: 850px;
+    height: 90px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #3d0000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-stat-line-more {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.stat-all-matches-more {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.statistics-more {
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.text-all-matches-more {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+.stat-rank-more {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.ranking-more {
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.text-rank-more {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+.stat-accuracy-more {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.accuracy-more {
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.text-accuracy-more {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+
+
+.your-game-page {
+    background-color: #111;
+    display: none;
+}
+
+.game-1 {
+    display: flex;
+    background-color: #262626;
+    border-radius: 50px;
+    width: 1780px;
+    height: 450px;
+    margin-top: 70px;
+    margin-left: 10px;
+    user-select: none;
+}
+
+.name-game-1 {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.text-name-game-1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.dota-2 {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.text-stat-game-1 {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.kda-game-1 {
+    margin-left: 55px;
+    font-size: 46px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kda-game-1 {
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+.total-matches-game-1 {
+    margin-left: 180px;
+    font-size: 46px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-total-matches-game-1 {
+    margin-left: 310px;
+    font-size: 50px;
+}
+
+.kd-game-1 {
+    margin-left: 210px;
+    font-size: 46px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    color: #808080;
+}
+
+.value-kd-game-1 {
+    margin-left: 227px;
+    font-size: 50px;
+}
+
+.text-stat-game-1-2 {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: flex;
+}
+
+.last-10-matches-game-1 {
+    font-size: 46px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 55px;
+}
+
+.value-last-10-matches-game-1 {
+    font-size: 50px;
+    margin-left: 55px;
+}
+
+.win-lose-game-1 {
+    font-size: 46px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: #808080;
+    margin-left: 280px;
+}
+
+.value-win-lose-game-1 {
+    font-size: 50px;
+    margin-left: 307px;
+}
+
+
+
+.your-account-page {
+    background-color: #111;
+    display: none;
+}
