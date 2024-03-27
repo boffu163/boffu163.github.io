@@ -160,6 +160,12 @@ p {
 .statistics-page {
     background-color: #111;
     display: none;
+    flex-direction: column;
+}
+
+.stat__container {
+    display: flex;
+    flex-direction: row;
 }
 
 .stat-today {
@@ -169,7 +175,7 @@ p {
     width: 700px;
     height: 450px;
     margin-top: 70px;
-    margin-left: 90px;
+    margin-left: 30px;
     user-select: none;
 }
 
@@ -290,7 +296,7 @@ p {
     width: 50px;
     height: 40px;
     margin-left: 600px;
-    margin-top: 30px;
+    margin-top: 45px;
     display: flex;
 }
 
@@ -303,7 +309,7 @@ p {
     width: 850px;
     height: 450px;
     margin-top: 70px;
-    margin-left: 190px;
+    margin-left: 185px;
     user-select: none;
 }
 
@@ -396,7 +402,7 @@ p {
     margin-top: 45px;
     margin-bottom: 0px;
     color: #808080;
-    margin-left: 200px;
+    margin-left: 223px;
 }
 
 .value-win-lose-month {
@@ -408,7 +414,7 @@ p {
     width: 50px;
     height: 40px;
     margin-left: 750px;
-    margin-top: 30px;
+    margin-top: 45px;
     display: flex;
 }
 
@@ -420,8 +426,8 @@ p {
     border-radius: 50px;
     width: 850px;
     height: 450px;
-    margin-top: 650px;
-    margin-right: 0px;
+    margin-top: 100px;
+    margin-left: 30px;
     user-select: none;
 }
 
@@ -514,23 +520,52 @@ p {
     margin-top: 45px;
     margin-bottom: 0px;
     color: #808080;
-    margin-left: 200px;
+    margin-left: 215px;
 }
 
 .value-win-lose-year {
     font-size: 30px;
-    margin-left: 235px;
+    margin-left: 190px;
 }
 
 .share-year {
     width: 50px;
     height: 40px;
     margin-left: 750px;
-    margin-top: 30px;
+    margin-top: 45px;
     display: flex;
 }
 
 
+.stat-more {
+    display: flex;
+    background-color: #262626;
+    border-radius: 50px;
+    width: 700px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 185px;
+    margin-right: 30px;
+    user-select: none;
+}
+
+.red-line-stat-more {
+    border-radius: 50px 50px 0 0;
+    width: 850px;
+    height: 90px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #3d0000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-stat-line-more {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 25px;
+}
 
 .your-game-page {
     background-color: #111;
@@ -544,7 +579,7 @@ p {
     width: 1780px;
     height: 450px;
     margin-top: 70px;
-    margin-left: 70px;
+    margin-left: 10px;
     user-select: none;
 }
 
@@ -640,12 +675,12 @@ p {
     margin-top: 45px;
     margin-bottom: 0px;
     color: #808080;
-    margin-left: 220px;
+    margin-left: 280px;
 }
 
 .value-win-lose-game-1 {
     font-size: 50px;
-    margin-left: 247px;
+    margin-left: 307px;
 }
 
 
