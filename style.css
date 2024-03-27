@@ -567,6 +567,80 @@ p {
     margin-top: 25px;
 }
 
+.stat-all-matches-more {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.statistics-more {
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.text-all-matches-more {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+.stat-rank-more {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.ranking-more {
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.text-rank-more {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+.stat-accuracy-more {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.accuracy-more {
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.text-accuracy-more {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+
+
 .your-game-page {
     background-color: #111;
     display: none;
