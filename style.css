@@ -72,6 +72,91 @@ p {
     cursor: pointer;
 }
 
+.low-row {
+    width: 100%;
+    height: 200px;
+    margin-top: 250px;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.low-row-2 {
+    background-color: #262626;
+    display: flex;
+    font-size: 30px;
+    margin-top: 40px;
+    user-select: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-low-row {
+    color: #464646;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.dis-contact-low-row {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.text-dis-low-row {
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.img-dis-low-row {
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.vk-contact-low-row {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.text-vk-low-row {
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.img-vk-low-row {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.tg-contact-low-row {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.text-tg-low-row {
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.img-tg-low-row {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+
+
+
 .window-main {
     display: flex;
     user-select: none;
