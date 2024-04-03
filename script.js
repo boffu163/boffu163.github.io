@@ -8,6 +8,35 @@ game_page = document.querySelector('.your-game-page')
 btn_game = document.querySelector('.game-top-row')
 account_page = document.querySelector('.your-account-page')
 btn_account = document.querySelector('.img-user-male')
+modal_window = document.querySelector('.popup')
+btn_showpopup = document.querySelector('#signup')
+btn_hidepopup = document.querySelector('#signin')
+close_btn_popup = document.querySelector('#closepopup')
+signin_page_popup = document.querySelector('#signin-page')
+btn_signin_popup = document.querySelector('#signin-popup')
+signup_page_popup = document.querySelector('#signup-page')
+btn_signup_popup = document.querySelector('#signup-popup')
+
+
+
+function showPopup() {
+    modal_window.style.display = 'flex'
+}
+function hidePopup() {
+    modal_window.style.display = 'none'
+}
+btn_showpopup.addEventListener('click', showPopup)
+btn_hidepopup.addEventListener('click', showPopup)
+close_btn_popup.addEventListener('click', hidePopup)
+
+btn_signup_popup.addEventListener('click', function(){
+    signin_page_popup.style.display = 'none'
+    signup_page_popup.style.display = 'flex'
+})
+btn_signin_popup.addEventListener('click', function(){
+    signin_page_popup.style.display = 'flex'
+    signup_page_popup.style.display = 'none'
+})
 
 
 

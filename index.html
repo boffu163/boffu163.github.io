@@ -24,6 +24,48 @@
                 </div>
             </div>
 
+            <div class = 'popup'>
+                <div class = 'header'>
+                    <div class = 'img-close-popup' id = 'closepopup'>
+                        <img src = 'src/close-cross.png'>
+                    </div>
+                </div>
+                <div class = 'body'>
+                    <div class = 'signin' id = 'signin-page'>
+                        <div class = 'text-body-signin'>
+                            <p>Войдите</p>
+                        </div>   
+                        <div class = 'text-login'>
+                            <label class = 'text-login-lab' for = 'login'>Логин</label>
+                            <input class = 'text-login-int' type = 'text' name = 'login' id = 'login' placeholder = 'Login'>
+                        </div>
+                        <div class = 'text-pass'>
+                            <label class = 'text-password-lab' for = 'password'>Пароль</label>
+                            <input class = 'text-password-int' type = 'text' name = 'password' id = 'password' placeholder = 'Password'>
+                        </div>
+                        <div class = 'text-reg-body'>
+                            <p>Нет аккаунта? Тогда <span class = 'text-window-change' id = 'signup-popup'>зарегистрируйтесь</span></p>
+                        </div>
+                    </div>
+                    <div class = 'signup' id = 'signup-page'>
+                        <div class = 'text-body-signup'>
+                            <p>Зарегистрируйтесь</p>
+                        </div>   
+                        <div class = 'text-login'>
+                            <label class = 'text-login-lab' for = 'login'>Логин</label>
+                            <input class = 'text-login-int' type = 'text' name = 'login' id = 'login' placeholder = 'Login'>
+                        </div>
+                        <div class = 'text-pass'>
+                            <label class = 'text-password-lab' for = 'password'>Пароль</label>
+                            <input class = 'text-password-int' type = 'text' name = 'password' id = 'password' placeholder = 'Password'>
+                        </div>
+                        <div class = 'text-sign-body'>
+                            <p>Уже есть аккаунт? Тогда <span class = 'text-window-change' id = 'signin-popup'>войдите</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class='main-page'>
                 <div class='window-main'>
                     <div class='window-register'>
@@ -32,7 +74,7 @@
                                 <p>Начни отслеживать свою статистику уже сейчас!</p>
                             </div>
                             <div class='text-register'>
-                                <p><span class='text-window-change'>Зарегистрироваться</span> и начать отслеживать свою
+                                <p><span class='text-window-change' id = 'signup'>Зарегистрироваться</span> и начать отслеживать свою
                                     статистику!</p>
                             </div>
                         </div>
@@ -43,7 +85,7 @@
                                 <p>Уже начал отслеживать свою статистику?</p>
                             </div>
                             <div class='text-sign'>
-                                <p><span class='text-window-change'>Войди</span> и сможешь посмотреть свою статистику!</p>
+                                <p><span class='text-window-change' id = 'signin'>Войди</span> и сможешь посмотреть свою статистику!</p>
                             </div>
                         </div>
                     </div>
@@ -365,6 +407,7 @@
                     <p>2024 © GameStatisticsTracker</p>
                 </div>
             </div>
+
         </div>
 
         <script src="script.js"></script>

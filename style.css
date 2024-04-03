@@ -848,3 +848,162 @@ p {
     background-color: #111;
     display: none;
 }
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: none;
+    background-color: #1c1c1c;
+    width: 500px;
+    height: 700px;
+    border-radius: 25px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+}
+
+.popup .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 500px;
+    height: 50px;
+}
+
+.img-close-popup {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.popup .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text-body-signin {
+    font-size: 50px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+.text-reg-body {
+    margin-top: 35px;
+}
+
+.text-login {
+    box-sizing: border-box;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+.text-login-lab {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.text-login-int {
+    display: block;
+    width: 250px;
+    height: 20px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text-login-int:placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
+.text-login-int:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.text-pass {
+    margin-top: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-self: center;
+}
+.text-password-lab {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.text-password-int {
+    display: block;
+    width: 250px;
+    height: 20px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text-password-int:placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
+.text-password-int:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.signup {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text-body-signup {
+    font-size: 45px;
+    margin-bottom: 80px;
+    margin-top: 51px;
+}
+
+.text-sign-body {
+    margin-top: 35px;
+}
