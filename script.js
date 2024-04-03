@@ -8,7 +8,7 @@ game_page = document.querySelector('.your-game-page')
 btn_game = document.querySelector('.game-top-row')
 account_page = document.querySelector('.your-account-page')
 btn_account = document.querySelector('.img-user-male')
-modal_window = document.querySelector('.popup')
+modal_window = document.querySelector('#popup-window')
 btn_showpopup = document.querySelector('#signup')
 btn_hidepopup = document.querySelector('#signin')
 close_btn_popup = document.querySelector('#closepopup')
@@ -21,6 +21,7 @@ btn_signup_popup = document.querySelector('#signup-popup')
 
 function showPopup() {
     modal_window.style.display = 'flex'
+    signin_page_popup.style.display = 'flex'
 }
 function hidePopup() {
     modal_window.style.display = 'none'
